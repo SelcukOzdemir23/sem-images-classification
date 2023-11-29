@@ -1,0 +1,64 @@
+Found 8768 files belonging to 4 classes.
+Using 5261 files for training.
+Found 8768 files belonging to 4 classes.
+Using 1753 files for validation.
+Found 8768 files belonging to 4 classes.
+Using 1753 files for validation.
+<_PrefetchDataset element_spec=(TensorSpec(shape=(None, 256, 256, 3), dtype=tf.float32, name=None), TensorSpec(shape=(None, 4), dtype=tf.float32, name=None))>
+<_PrefetchDataset element_spec=(TensorSpec(shape=(None, 256, 256, 3), dtype=tf.float32, name=None), TensorSpec(shape=(None, 4), dtype=tf.float32, name=None))>
+<_PrefetchDataset element_spec=(TensorSpec(shape=(None, 256, 256, 3), dtype=tf.float32, name=None), TensorSpec(shape=(None, 4), dtype=tf.float32, name=None))>
+WARNING:tensorflow:From c:\Users\Özdemir\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+WARNING:tensorflow:From c:\Users\Özdemir\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ sequential_1 (Sequential)   (None, 256, 256, 3)       0
+ conv2d (Conv2D)             (None, 254, 254, 6)       168
+ batch_normalization (Batch  (None, 254, 254, 6)       24
+ Normalization)
+ max_pooling2d (MaxPooling2  (None, 127, 127, 6)       0
+ D)
+ dropout (Dropout)           (None, 127, 127, 6)       0
+ conv2d_1 (Conv2D)           (None, 125, 125, 16)      880
+ batch_normalization_1 (Bat  (None, 125, 125, 16)      64
+ chNormalization)
+ max_pooling2d_1 (MaxPoolin  (None, 62, 62, 16)        0
+ g2D)
+ flatten (Flatten)           (None, 61504)             0
+ dense (Dense)               (None, 1024)              62981120
+ batch_normalization_2 (Bat  (None, 1024)              4096
+ chNormalization)
+ dropout_1 (Dropout)         (None, 1024)              0
+ dense_1 (Dense)             (None, 128)               131200
+ batch_normalization_3 (Bat  (None, 128)               512
+ chNormalization)
+ dense_2 (Dense)             (None, 3)                 387
+=================================================================
+Total params: 63118451 (240.78 MB)
+Trainable params: 63116103 (240.77 MB)
+Non-trainable params: 2348 (9.17 KB)
+_________________________________________________________________
+Downloading data from https://storage.googleapis.com/keras-applications/efficientnetb4_notop.h5
+
+
+71686520/71686520 [==============================] - 3s 0us/step
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ efficientnetb4 (Functional  (None, 8, 8, 1792)        17673823
+ )
+ global_average_pooling2d (  (None, 1792)              0
+ GlobalAveragePooling2D)
+ dense_3 (Dense)             (None, 1024)              1836032
+ batch_normalization_4 (Bat  (None, 1024)              4096
+ chNormalization)
+ dense_4 (Dense)             (None, 128)               131200
+ dense_5 (Dense)             (None, 3)                 387
+=================================================================
+Total params: 19645538 (74.94 MB)
+Trainable params: 1969667 (7.51 MB)
+Non-trainable params: 17675871 (67.43 MB)
+_________________________________________________________________
+wandb: Appending key for api.wandb.ai to your netrc file: C:\Users\Özdemir/.netrc
