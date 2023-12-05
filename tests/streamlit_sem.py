@@ -3,11 +3,11 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.efficientnet import preprocess_input
-from tensorflow.keras.applications.resnet50 import preprocess_input
+#from tensorflow.keras.applications.resnet50 import preprocess_input
 import plotly.express as px
 
 # model yükle
-model = tf.keras.models.load_model("B:\Dosya\Kodlar\Sem-Images-Classification\models\\fine_tuned_model.h5")
+model = tf.keras.models.load_model("B:\Dosya\Kodlar\Sem-Images-Classification\models\efficent_net224B0.h5")
 
 # Etiketler
 waste_labels = {0: 'Fibres', 1: 'Nanowires', 2: 'Particles', 3: 'Powder'}
