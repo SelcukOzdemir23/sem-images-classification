@@ -1,8 +1,3 @@
-# Veri Seti:
-https://www.kaggle.com/datasets/sharumaan/semimages-299x299
-# NFFA EUROPE
-
-https://b2find.eudat.eu/dataset/3e5efa2d-4724-5fb8-908e-7e3c8ca69ccd
 
 
 # Sem Görüntü Sınıflandırma Uygulaması
@@ -12,6 +7,14 @@ https://b2find.eudat.eu/dataset/3e5efa2d-4724-5fb8-908e-7e3c8ca69ccd
 Nano boyuttaki 4 farklı tür olan , Fibres, Nanowires, Powder ve Particles resimlerini sınıflandıran model .
 
 ---
+
+## Veriseti:
+
+# NFFA EUROPE
+https://b2find.eudat.eu/dataset/3e5efa2d-4724-5fb8-908e-7e3c8ca69ccd
+
+https://www.kaggle.com/datasets/selukzdemir/sem-nffa-europe
+
 
 ## Wandb Çıktılar:
 
