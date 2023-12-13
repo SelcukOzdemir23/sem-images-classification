@@ -21,6 +21,18 @@ https://www.kaggle.com/datasets/selukzdemir/sem-nffa-europe
 
 ## Wandb Çıktılar:
 
+### Val_accuracy
+![W B Chart 12_13_2023, 8_09_04 PM](https://github.com/SelcukOzdemir23/sem-images-classification/assets/72154925/88b111c3-47af-43e6-ba59-c6f428b53dc0)
+
+## Val_loss
+![W B Chart 12_13_2023, 8_09_44 PM](https://github.com/SelcukOzdemir23/sem-images-classification/assets/72154925/cc930c3a-4951-4d82-887d-a5ee291dec15)
+
+## Accuracy
+![W B Chart 12_13_2023, 8_09_44 PM](https://github.com/SelcukOzdemir23/sem-images-classification/assets/72154925/03c8a2fa-928c-49d9-9c4c-c14141c8cea4)
+
+## loss
+
+![W B Chart 12_13_2023, 8_09_04 PM](https://github.com/SelcukOzdemir23/sem-images-classification/assets/72154925/cc20235c-45d0-45e8-a998-2cce2d32eec8)
 
 ## 🚀 Başlangıç
 
