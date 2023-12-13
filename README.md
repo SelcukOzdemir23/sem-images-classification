@@ -2,7 +2,8 @@
 
 # Sem Görüntü Sınıflandırma Uygulaması
 
-![image](https://github.com/SelcukOzdemir23/sem-images-classification/assets/72154925/795b31b9-f827-4841-b3b8-6dbccf372843)
+![Uploading image.png…]()
+
 
 Nano boyuttaki 4 farklı tür olan , Fibres, Nanowires, Powder ve Particles resimlerini sınıflandıran model .
 
