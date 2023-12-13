@@ -7,7 +7,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 import plotly.express as px
 
 # model yükle
-model = tf.keras.models.load_model("B:\Dosya\Kodlar\Sem-Images-Classification\efficent_net224B0.h5")
+model = tf.keras.models.load_model("efficent_net224B0.h5")
 
 # Etiketler
 waste_labels = {0: 'Fibres', 1: 'Nanowires', 2: 'Particles', 3: 'Powder'}
