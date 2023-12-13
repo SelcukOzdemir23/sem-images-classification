@@ -6,7 +6,10 @@
 
 Nano boyuttaki 4 farklı tür olan , Fibres, Nanowires, Powder ve Particles resimlerini sınıflandıran model .
 
----
+
+## İnternet Adres: 
+
+https://semimageclassification.streamlit.app/
 
 ## Veriseti:
 
@@ -55,12 +58,4 @@ https://www.kaggle.com/datasets/selukzdemir/sem-nffa-europe
 - Proje Sahibi: [Müşerref Selçuk Özdemir]
 - E-posta: [selcuk.ozdemir2360@gmail.com]
 
----
 
-## 🙌 Teşekkürler
-
-- [Teşekkür 1]
-- [Teşekkür 2]
-- [Teşekkür 3]
-
----
