@@ -13,8 +13,8 @@ model = tf.keras.models.load_model("efficent_net224B0.h5")
 waste_labels = {0: 'Fibres', 1: 'Nanowires', 2: 'Particles', 3: 'Powder'}
 
 # uygulama yükle
-st.title("SEM Atık Tahmin Uygulaması")
-st.write("Lütfen bir SEM görüntüsü yükleyin.")
+st.title("SEM Görüntü Sınıflandırma Uygulaması")
+st.write("Lütfen bir SEM görüntüsü yükleyin. - (Fibres, Nanowires, Powder,Particles)")
 
 # giriş yap
 uploaded_image = st.file_uploader("SEM Görüntüsünü Yükleyin", type=["jpg", "png", "jpeg"])
