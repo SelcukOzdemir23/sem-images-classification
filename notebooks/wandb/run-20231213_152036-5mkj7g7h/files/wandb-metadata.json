@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-12-13T12:20:37.437823",
+    "startedAt": "2023-12-13T12:20:36.293322",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/SelcukOzdemir23/sem-images-classification.git",
+        "commit": "1a31ddc99004547072b1e2e7e80d3a8c7178a842"
+    },
+    "email": "72154925+SelcukOzdemir23@users.noreply.github.com",
+    "root": "B:/Dosya/Kodlar/Sem-Images-Classification",
+    "host": "OZDEMIR",
+    "username": "Ozdemir",
+    "executable": "c:\\Users\\\u00d6zdemir\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3301.0,
+        "min": 0.0,
+        "max": 3301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3301.0,
+            "min": 0.0,
+            "max": 3301.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 226.91698837280273,
+            "used": 177.87377548217773
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 7.345428466796875
+    }
+}
