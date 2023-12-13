@@ -33,7 +33,8 @@ https://www.kaggle.com/datasets/selukzdemir/sem-nffa-europe
 
 ## loss
 
-![W B Chart 12_13_2023, 8_09_04 PM](https://github.com/SelcukOzdemir23/sem-images-classification/assets/72154925/cc20235c-45d0-45e8-a998-2cce2d32eec8)
+![W B Chart 12_13_2023, 8_10_12 PM (1)](https://github.com/SelcukOzdemir23/sem-images-classification/assets/72154925/ed410307-130e-4403-aeae-f20febf03bb4)
+
 
 ## 🚀 Başlangıç
 
