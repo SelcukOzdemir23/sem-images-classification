@@ -11,7 +11,17 @@ Nano boyuttaki 4 farklı tür olan , Fibres, Nanowires, Powder ve Particles resi
 
 ## İnternet Adres: 
 
+
+### Streamlit
 https://semimageclassification.streamlit.app/
+
+### HugginFace- Gradio
+
+https://huggingface.co/spaces/Defkhan5960/semclass
+
+### HugginFace- Streamlit
+https://huggingface.co/spaces/Defkhan5960/sem-streamlit
+
 
 ## Veriseti:
 
