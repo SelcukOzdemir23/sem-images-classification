@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.efficientnet import preprocess_input
 
 
-model = load_model("efficent_net224B0.h5")
+model = load_model("B:\Dosya\Kodlar\Sem-Images-Classification\efficent_net224B0.h5")
 
 
 waste_labels = {0: 'Fibres', 1: 'Nanowires', 2: 'Particles', 3: 'Powder'}
